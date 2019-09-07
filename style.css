@@ -1,0 +1,78 @@
+.player{
+    width: 100%;
+    background-color:#666;
+    margin:auto;
+    
+}
+
+.player h1{
+    color:white;
+    text-align: center;
+    background-image: linear-gradient(to right,#000000,#383838);
+    display:block;
+    border-bottom: 3px orange solid;
+}
+
+.playlist{
+    height: 400px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    font-size: 28px;
+}
+
+
+
+.playlist button{
+    display:block;
+    width:100%;
+    height:80px;
+    background-image: linear-gradient(to right,#000000,#383838);
+    color:white;
+    font-size: 28px;
+    border-style: none;
+    margin: 3px;
+}
+
+.playlist button:hover{
+    cursor: pointer;
+    background-image: none;
+    background-color: orange;
+}
+
+
+
+.audioPlayer{
+    width:100%;
+    background-image: linear-gradient(to right,#000000,#383838);
+    color:white;
+    
+    
+}
+
+#title{
+    color:white;
+    background-image: linear-gradient(to right,#000000,#383838);
+    display:block;
+    border-top: 3px rgb(255, 166, 0) solid;
+}
+
+.playlist::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  .playlist::-webkit-scrollbar-track {
+    background:#666; 
+  }
+  
+  /* Handle */
+  .playlist::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right,#ffa500,#ffbe47);
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle on hover */
+  .playlist::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
